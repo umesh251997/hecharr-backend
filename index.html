@@ -1839,7 +1839,7 @@ function checkoutNext(step) { checkoutStep = step; renderCheckout(); }
 // Replace YOUR_PUBLISHABLE_KEY with your actual Stripe publishable key (pk_live_... or pk_test_...)
 const STRIPE_PUBLISHABLE_KEY = 'pk_test_51T6R4V0nOGQ3s0b8YbjV3UQ88C9XZeKNBaFVWdGWB3Qpbi7dOW9vMVvFppl4k9oqu7aK3phBfoXweVODp7D6KKsE00Aedx4lQa';
 // Replace with your Railway backend URL after deploying
-const BACKEND_URL = 'hecharr-backend-production.up.railway.app';
+const BACKEND_URL = 'https://hecharr-backend-production.up.railway.app';
 
 let stripeInstance = null;
 let checkoutData = {}; // stores customer info across steps
@@ -1966,4 +1966,5 @@ updateAuthUI();
 updateCartUI();
 </script>
 </body>
+
 </html>
