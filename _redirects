@@ -1,0 +1,5 @@
+# Redirect www → naked domain (301 permanent)
+https://www.hechar.com/* https://hechar.com/:splat 301!
+
+# Fallback — serve index.html for all routes (SPA)
+/* /index.html 200
